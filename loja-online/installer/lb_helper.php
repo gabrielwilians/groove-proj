@@ -180,7 +180,7 @@ class LicenseBoxAPI
 
 	public function activate_license($license, $client, $create_lic = true)
 	{
-		return array('status' => TRUE, 'message' => 'Valid license //prowebber');
+		return array('status' => TRUE, 'message' => 'Validado! muito bem! 😁');
 		$data_array = array(
 			"product_id" => $this->product_id,
 			"license_code" => $license,

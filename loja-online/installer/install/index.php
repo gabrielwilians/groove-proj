@@ -6,7 +6,7 @@ $api = new LicenseBoxAPI(); // Initialize a new LicenseBoxAPI object
 <html>
   <head>
     <meta charset="utf-8"/>
-    <title>Gambo</title>
+    <title>Goovel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
@@ -53,7 +53,7 @@ $step = isset($_GET['step']) ? $_GET['step'] : '';
       <div class="section">
         <div class="column is-6 is-offset-3">
           <center>
-            <h1 class="title" style="padding-top: 20px">Gambo Installation</h1><br>
+            <h1 class="title" style="padding-top: 20px">Goovel Instalação</h1><br>
           </center>
           <div class="box">
             <?php
@@ -63,22 +63,22 @@ switch ($step) {
                   <ul>
                     <li class="is-active">
                       <a>
-                        <span><b>Requirements</b></span>
+                        <span><b>Requisitos</b></span>
                       </a>
                     </li>
                     <li>
                       <a>
-                        <span>Verify</span>
+                        <span>Verificação</span>
                       </a>
                     </li>
                     <li>
                       <a>
-                        <span>Database</span>
+                        <span>Banco de dados Mysql</span>
                       </a>
                     </li>
                     <li>
                       <a>
-                        <span>Finish</span>
+                        <span>Fim</span>
                       </a>
                     </li>
                   </ul>
@@ -89,7 +89,7 @@ switch ($step) {
             $errors = true;
             echo "<div class='notification is-danger' style='padding:12px;'><i class='fa fa-times'></i> Current PHP version is " . phpversion() . "! minimum PHP 7.2 or higher required.</div>";
         } else {
-            echo "<div class='notification is-success' style='padding:12px;'><i class='fa fa-check'></i> You are running PHP version " . phpversion() . "</div>";
+            echo "<div class='notification is-success' style='padding:12px;'><i class='fa fa-check'></i> Você está rodando uma versão PHP " . phpversion() . "</div>";
         }
         if (!extension_loaded('mysqli')) {
             $errors = true;
@@ -99,9 +99,9 @@ switch ($step) {
         }?>
                 <div style='text-align: right;'>
                   <?php if ($errors == true) {?>
-                  <a href="#" class="button is-link" disabled>Next</a>
+                  <a href="#" class="button is-link" disabled>Próximo</a>
                   <?php } else {?>
-                  <a href="index.php?step=0" class="button is-link">Next</a>
+                  <a href="index.php?step=0" class="button is-link">Próximo</a>
                   <?php }?>
                 </div><?php
 break;
@@ -110,12 +110,12 @@ break;
                   <ul>
                     <li>
                       <a>
-                        <span><i class="fa fa-check-circle"></i> Requirements</span>
+                        <span><i class="fa fa-check-circle"></i> Requisitos</span>
                       </a>
                     </li>
                     <li class="is-active">
                       <a>
-                        <span><b>Verify</b></span>
+                        <span><b>Verificação</b></span>
                       </a>
                     </li>
                     <li>
@@ -150,19 +150,19 @@ break;
                         <div class="field">
                         <input type="hidden" name="license_code" id="license_code" value="<?php echo $license_code; ?>">
                         <input type="hidden" name="client_name" id="client_name" value="<?php echo $client_name; ?>">
-                          <label class="label">License code</label>
+                          <label class="label">Código de autorização/ Email autorizado</label>
                           <div class="control">
-                            <input class="input" type="text" placeholder="enter your purchase/license code" name="license" required>
+                            <input class="input" type="text" placeholder="digite seu codigo aqui:" name="license" required>
                           </div>
                         </div>
                         <div class="field">
-                          <label class="label">Your name</label>
+                          <label class="label">Seu Nome</label>
                           <div class="control">
-                            <input class="input" type="text" placeholder="enter your name/envato username" name="client" required>
+                            <input class="input" type="text" placeholder="Digite seu nome aqui" name="client" required>
                           </div>
                         </div>
                         <div style='text-align: right;'>
-                          <button type="submit" class="button is-link">Verify</button>
+                          <button type="submit" class="button is-link">Verificar</button>
                         </div>
                       </form><?php
                 } else {?>
@@ -172,26 +172,26 @@ break;
                         <input type="hidden" name="license_code" id="license_code" value="<?php echo $license_code; ?>">
                         <input type="hidden" name="client_name" id="client_name" value="<?php echo $client_name; ?>">
                         <div style='text-align: right;'>
-                          <button type="submit" class="button is-link">Next</button>
+                          <button type="submit" class="button is-link">Próximo</button>
                         </div>
                       </form><?php
                 }
                 } else {?>
                     <form action="index.php?step=0" method="POST">
                       <div class="field">
-                        <label class="label">License code</label>
+                        <label class="label">Código de autorização / Email autorizado</label>
                         <div class="control">
-                          <input class="input" type="text" placeholder="enter your purchase/license code" name="license" required>
+                          <input class="input" type="text" placeholder="digite seu codigo aqui:" name="license" required>
                         </div>
                       </div>
                       <div class="field">
-                        <label class="label">Your name</label>
+                        <label class="label">Seu Nome</label>
                         <div class="control">
-                          <input class="input" type="text" placeholder="enter your name/envato username" name="client" required>
+                          <input class="input" type="text" placeholder="Digite seu nome aqui" name="client" required>
                         </div>
                       </div>
                       <div style='text-align: right;'>
-                        <button type="submit" class="button is-link">Verify</button>
+                        <button type="submit" class="button is-link">Verificar</button>
                       </div>
                     </form>
                   <?php }
@@ -201,22 +201,22 @@ break;
                   <ul>
                     <li>
                       <a>
-                        <span><i class="fa fa-check-circle"></i> Requirements</span>
+                        <span><i class="fa fa-check-circle"></i> Requisitos</span>
                       </a>
                     </li>
                     <li>
                       <a>
-                        <span><i class="fa fa-check-circle"></i> Verify</span>
+                        <span><i class="fa fa-check-circle"></i> Verificação</span>
                       </a>
                     </li>
                     <li class="is-active">
                       <a>
-                        <span><b>Database</b></span>
+                        <span><b>Banco de dados</b></span>
                       </a>
                     </li>
                     <li>
                       <a>
-                        <span>Finish</span>
+                        <span>Fim</span>
                       </a>
                     </li>
                   </ul>
@@ -240,27 +240,27 @@ break;
                           <input type="hidden" name="license_code" id="license_code" value="<?php echo $license_code; ?>">
                           <input type="hidden" name="client_name" id="client_name" value="<?php echo $client_name; ?>">
                           <div class="field">
-                            <label class="label">Database Host</label>
+                            <label class="label">endereço do banco</label>
                             <div class="control">
-                              <input class="input" type="text" id="host" placeholder="enter your database host" name="host" required>
+                              <input class="input" type="text" id="host" placeholder="Localhost" name="host" required>
                             </div>
                           </div>
                           <div class="field">
-                            <label class="label">Database Username</label>
+                            <label class="label">Usuário do banco</label>
                             <div class="control">
-                              <input class="input" type="text" id="user" placeholder="enter your database username" name="user" required>
+                              <input class="input" type="text" id="user" placeholder="root" name="user" required>
                             </div>
                           </div>
                           <div class="field">
-                            <label class="label">Database Password</label>
+                            <label class="label">senha do banco</label>
                             <div class="control">
-                              <input class="input" type="text" id="pass" placeholder="enter your database password" name="pass">
+                              <input class="input" type="text" id="pass" placeholder="******" name="pass">
                             </div>
                           </div>
                           <div class="field">
-                            <label class="label">Database Name</label>
+                            <label class="label">Nome da base de dados</label>
                             <div class="control">
-                              <input class="input" type="text" id="name" placeholder="enter your database name" name="name" required>
+                              <input class="input" type="text" id="name" placeholder="nome do banco" name="name" required>
                             </div>
                           </div>
                           <div style='text-align: right;'>
@@ -294,44 +294,44 @@ break;
                       <input type="hidden" name="license_code" id="license_code" value="<?php echo $license_code; ?>">
                       <input type="hidden" name="client_name" id="client_name" value="<?php echo $client_name; ?>">
                       <div style='text-align: right;'>
-                        <button type="submit" id="openLogin" class="button is-link">Next</button>
+                        <button type="submit" id="openLogin" class="button is-link">Próximo</button>
                       </div>
                     </form>
                     <?php
                     } else {?>
 
-                    <label class="label">It's take some time to import, Please Wait.</label>
+                    <label class="label">Esta é uma parte bem importante!.</label>
                     <form action="index.php?step=1" method="POST">
                       <input type="hidden" name="lcscs" id="lcscs" value="<?php echo $valid; ?>">
                       <input type="hidden" name="license_code" id="license_code" value="<?php echo $license_code; ?>">
                       <input type="hidden" name="client_name" id="client_name" value="<?php echo $client_name; ?>">
                       <div class="field">
-                        <label class="label">Database Host</label>
+                        <label class="label">endereço do banco</label>
                         <div class="control">
-                          <input class="input" type="text" id="host" placeholder="enter your database host" name="host" required>
+                          <input class="input" type="text" id="host" placeholder="localhost" name="host" required>
                         </div>
                       </div>
                       <div class="field">
-                        <label class="label">Database Username</label>
+                        <label class="label">Usuário do banco</label>
                         <div class="control">
-                          <input class="input" type="text" id="user" placeholder="enter your database username" name="user" required>
+                          <input class="input" type="text" id="user" placeholder="root" name="user" required>
                         </div>
                       </div>
                       <div class="field">
-                        <label class="label">Database Password</label>
+                        <label class="label">senha do banco</label>
                         <div class="control">
-                          <input class="input" type="text" id="pass" placeholder="enter your database password" name="pass">
+                          <input class="input" type="text" id="pass" placeholder="******" name="pass">
                         </div>
                       </div>
                       <div class="field">
-                        <label class="label">Database Name</label>
+                        <label class="label">Nome da base de dados</label>
                         <div class="control">
-                          <input class="input" type="text" id="name" placeholder="enter your database name" name="name" required>
+                          <input class="input" type="text" id="name" placeholder="nome do banco" name="name" required>
                         </div>
                       </div>
                       <div style='text-align: right;'>
 
-                        <button type="submit" class="button db-import is-link">Import</button>
+                        <button type="submit" class="button db-import is-link">Importar</button>
                       </div>
                     </form><?php
 }
@@ -344,17 +344,17 @@ break;
                 <ul>
                   <li>
                     <a>
-                      <span><i class="fa fa-check-circle"></i> Requirements</span>
+                      <span><i class="fa fa-check-circle"></i> Requisitos</span>
                     </a>
                   </li>
                   <li>
                     <a>
-                      <span><i class="fa fa-check-circle"></i> Verify</span>
+                      <span><i class="fa fa-check-circle"></i> Verificação</span>
                     </a>
                   </li>
                   <li>
                     <a>
-                      <span><i class="fa fa-check-circle"></i> Database</span>
+                      <span><i class="fa fa-check-circle"></i> Banco de Dados</span>
                     </a>
                   </li>
                   <li class="is-active">
@@ -414,7 +414,7 @@ break;
     </div>
   </div>
   <div class="content has-text-centered">
-    <p>© <?php echo date('Y'); ?> Copyright Gambo by <a  target="_blank"  href="http://saasmonks.in/">SaasMonks</a></p><br>
+    <p>© <?php echo date('Y'); ?> Copyright Goovel por  <a  target="_blank"  href="http://gabriel-willian.rf.gd/">Gabriel Willians</a></p><br>
   </div>
 </body> 
 

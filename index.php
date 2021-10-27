@@ -230,75 +230,7 @@ error_reporting(0);
   </div>
 </section>
 
-<!--
-<section class="w3l-faq py-5">
-  <div class="faq-content py-lg-3">
-    <div class="container">
-      <div class="header-section mb-5 text-center mx-auto">
-        <h3>Frequently Asked Questions </h3>
-        <p class="my-3"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-          Nulla mollis dapibus nunc, ut rhoncus
-          turpis sodales quis. Integer sit amet mattis quam.</p>
-      </div>
-      <div class="row">
-        <div class="col-lg-8 col-md-9 mx-auto">
-          <div class="faq-question">
-            <input id="q1" type="checkbox" class="panel">
-            <div class="plus">+</div>
-            <label for="q1" class="panel-title">What is nulla eu ipsum tempus est suscipit et vitae nulla?</label>
-            <div class="panel-content">Nulla eu ipsum tempus est suscipit et vitae nulla. Once autet.
-              Fusce rutrum quam a ultrices amet rhoncus. Nulla eu ipsum tempus est suscipit et vitae nulla. Once
-              aute irure dolor. Aenean facilisis erat posuere erat ornare ultrices. Aliquam ac arcu interdum,
-              dapibus nibh convallis, semper augue.erat posuere erat ornare ultrices. Aliquam ac arcu interdum,
-              dapibus nibh convallis, semper augue. Aenean facilisis erat posuere erat ornare ultrices.
-              Aliquam ac arcu interdum, dapibus nibh convallis, semper augue sed dolor amet sed et. </div>
-          </div>
-          <div class="faq-question">
-            <input id="q2" type="checkbox" class="panel">
-            <div class="plus">+</div>
-            <label for="q2" class="panel-title">How much tempus est suscipit et vitae nulla?</label>
-            <div class="panel-content">Nulla eu ipsum tempus est suscipit et vitae nulla. Once autet.
-              Fusce rutrum quam a ultrices rhoncus. Nulla eu ipsum tempus est suscipit et vitae nulla. Once
-              aute irure dolor
-            </div>
-          </div>
-          <div class="faq-question">
-            <input id="q3" type="checkbox" class="panel">
-            <div class="plus">+</div>
-            <label for="q3" class="panel-title">What happens if ipsum tempus est suscipit et vitae?</label>
-            <div class="panel-content">Nulla eu ipsum tempus est suscipit et vitae nulla. Once autet.
-              Fusce rutrum quam a ultrices rhoncus. Nulla eu ipsum tempus est suscipit et vitae nulla. Once
-              aute irure dolor. Aliquam ac arcu interdum, dapibus nibh convallis, semper augue sed dolor amet sed et.
-            </div>
-          </div>
-          <div class="faq-question">
-            <input id="q4" type="checkbox" class="panel">
-            <div class="plus">+</div>
-            <label for="q4" class="panel-title">What is nulla eu ipsum tempus est suscipit et vitae nulla?</label>
-            <div class="panel-content">Nulla eu ipsum tempus est suscipit et vitae nulla. Once autet.
-              Fusce rutrum quam a ultrices amet rhoncus. Nulla eu ipsum tempus est suscipit et vitae nulla. Once
-              aute irure dolor. Aenean facilisis erat posuere erat ornare ultrices. Aliquam ac arcu interdum,
-              dapibus nibh convallis, semper augue.erat posuere erat ornare ultrices. Aliquam ac arcu interdum,
-              dapibus nibh convallis, semper augue. Aenean facilisis erat posuere erat ornare ultrices.
-              Aliquam ac arcu interdum, dapibus nibh convallis, semper augue sed dolor amet sed et. </div>
-          </div>
-          <div class="faq-question">
-            <input id="q5" type="checkbox" class="panel">
-            <div class="plus">+</div>
-            <label for="q5" class="panel-title">How much tempus est suscipit et vitae nulla?</label>
-            <div class="panel-content">Nulla eu ipsum tempus est suscipit et vitae nulla. Once autet.
-              Fusce rutrum quam a ultrices rhoncus. Nulla eu ipsum tempus est suscipit et vitae nulla. Once
-              aute irure dolor
-            </div>
-          </div>
-          <div class="more text-center mt-5">
-            <a href="faq.html" class="btn btn-light theme-button">See more questions <span class="fa fa-long-arrow-right"></span></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>-->
+
 <section class="w3l-courses py-5">
   <div class="container py-lg-3">
     <div class="header-section mb-5 text-center mx-auto">

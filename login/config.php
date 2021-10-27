@@ -1,7 +1,7 @@
 <?php
     session_start();
     const host = 'localhost';
-    const dbname = 'db_erp';
+    const dbname = 'goovel_db';
     const user = 'root';
     const senha = '';
 
