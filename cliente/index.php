@@ -60,7 +60,7 @@
 				</nav>
 				<ul class="navbar-nav">
 					<li class="nav-item active">
-						<a class="nav-link" href="index.html">inicio</a>
+						<a class="nav-link" href="../index.php">inicio</a>
 					</li>
 				<!--	<li class="nav-item dropdown @@pages__active">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"

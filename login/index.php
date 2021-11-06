@@ -47,7 +47,7 @@
 		<div class="form-36-mian section-gap">
 			<div class="wrapper">
 				<div class="form-inner-cont">
-					<h3>Groove </h3>
+					<h3>Goovel </h3>
 
 
 					<form action="" method="post" class="signin-form">

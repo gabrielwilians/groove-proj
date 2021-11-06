@@ -80,7 +80,7 @@
 							</div>
 						</div>
 						<div class="clear"></div>
-							<input type="checkbox" value="remember-me" /> <h4> eu aceito os termos e condições</h4>
+							<input type="checkbox" checked="true" value="remember-me" /> <h4> eu aceito os termos e condições</h4>
 							<button class="btn btn-danger btn-block" type="submit" name="acao">Registrar <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button >
 					</form>
 			</div>

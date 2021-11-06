@@ -1,5 +1,5 @@
 <!--
-Author: gabriel willians paiva 
+Author: gabriel willians paiva
 Author URL: insta @gabrielwilians
 -->
 
@@ -10,7 +10,7 @@ error_reporting(0);
 ?>
 
 <!doctype html>
-<html lang="pt">
+<html lang="pt_BR">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -83,7 +83,7 @@ error_reporting(0);
                     header('Location: main.php');
                     die();}?>
 
-                    Bem Vindo
+                    Goovel
           </h3>
           <p class="mt-3 mb-lg-5 mb-4">nossa intenção é reunir o mercado local em um só lugar, trazendo cada vez mais soluções para você.    tenha calma! ainda estamos trabalhando muito nisso!</p>
           <form class="form-inline search-course d-flex">
